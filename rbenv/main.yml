@@ -3,7 +3,7 @@
 
   vars:
     - rbenv_root: /usr/local/rbenv
-    - ruby_version: 2.1.0
+    - ruby_version: 2.2.0
 
   tasks:
     - name: rbenv | install build depends
@@ -13,7 +13,7 @@
         - git
         - libcurl4-openssl-dev
         - libmysqlclient-dev
-        - libreadline5-dev
+        - libreadline-dev
         - libssl-dev
         - libxml2-dev
         - libxslt1-dev
